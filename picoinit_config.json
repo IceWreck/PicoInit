@@ -1,0 +1,20 @@
+[
+    {
+        "name":"vlcplayer",
+        "workdir":"",
+        "cmd":"vlc",
+        "restart":"never"
+    },
+    {
+        "name":"telegram",
+        "workdir":"",
+        "cmd":"telegram-desktop",
+        "restart":"always"
+    },
+    {
+        "name":"vscodium",
+        "workdir":"/home/icewreck",
+        "cmd":"codium ./Documents",
+        "restart":"on_error"
+    }
+]
